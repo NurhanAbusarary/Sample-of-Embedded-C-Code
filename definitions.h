@@ -28,25 +28,25 @@
 
 #define PPG_SAMPLES_REDUCED_LENGTH	50
 
-#define FREEFALL_FLAG				0
+#define FREEFALL_FLAG				    0
 #define temperature_interval		500 // 50 times 2 msec
-#define oled_interval				250
-#define ppg_sample_interval			25
-#define acc_interval				1
-#define hr_interval					1000
+#define oled_interval			    	250
+#define ppg_sample_interval	    25
+#define acc_interval			    	1
+#define hr_interval					    1000
 
-#define OLED_ADDRESS_W				0x78
-#define OLED_ADDRESS_R				0X79
+#define OLED_ADDRESS_W			0x78
+#define OLED_ADDRESS_R			0X79
 
 #define OLED_COMMAND				0x80
-#define OLED_DATA					0X40
+#define OLED_DATA					  0X40
 
 #define SLA_SPO2_W					0XBC
 #define SLA_SPO2_R					0XBD
-#define FIFO_C1						0X09 
-#define FIFO_C2						0X0A 
+#define FIFO_C1						  0X09 
+#define FIFO_C2						  0X0A 
 #define SYS_CONTROL					0x0D 
-#define LED_IR_MA					0X11
+#define LED_IR_MA					  0X11
 #define LED_RED_MA					0X12
 #define LED_RGE_MA					0X14
 #define LED_PILOT_MA				0X15
@@ -58,7 +58,7 @@
 #define FIFO_WR_PTR					0
 #define OVF_COUNTER					1
 #define FIFO_RD_PTR					2
-#define FIFO_DATA					0x07
+#define FIFO_DATA					  0x07
 
 #define LINE_1						0
 #define LINE_2						1
