@@ -33,7 +33,7 @@
 #define oled_interval			    	250
 #define ppg_sample_interval	    25
 #define acc_interval			    	1
-#define hr_interval					    1000
+#define hr_interval					1000
 
 #define OLED_ADDRESS_W			0x78
 #define OLED_ADDRESS_R			0X79
