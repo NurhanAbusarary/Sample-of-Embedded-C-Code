@@ -58,7 +58,7 @@
 #define FIFO_WR_PTR					0
 #define OVF_COUNTER					1
 #define FIFO_RD_PTR					2
-#define FIFO_DATA					  0x07
+#define FIFO_DATA					0x07
 
 #define LINE_1						0
 #define LINE_2						1
