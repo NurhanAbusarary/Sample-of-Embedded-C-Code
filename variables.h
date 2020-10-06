@@ -1,5 +1,4 @@
 // variables here
-
 unsigned char A[200] = {0};
 unsigned int Data = 0;
 char whoami = 0;
